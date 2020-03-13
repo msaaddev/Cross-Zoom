@@ -17,6 +17,7 @@
 		"matches": ["<all-urls>"],
 		"js": ["lib/jquery.js", "lib/sweetalert.js", "zoom.js"]
 	},
+	"permissions": ["tabs", "*://*/"],
 
 	"content_security_policy": "script-src 'self' object-src 'self'"
 }
