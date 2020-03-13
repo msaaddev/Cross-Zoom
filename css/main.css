@@ -1,17 +1,17 @@
 .container {
 	display: flex;
-	width: 500px;
+	width: 400px;
 	height: 100px;
 }
 
 .btn {
-
-	margin: 50px 30px;
+	margin: 30px 10px;
 	width: 80px;
 	height: 30px;
+	font-family: 'Roboto', sans-serif;
 }
 
 h2 {
 	margin-top: 30px;
+	font-family: 'Roboto', sans-serif;
 }
-
