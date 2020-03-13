@@ -1,0 +1,16 @@
+.container {
+	display: flex;
+	width: 500px;
+	height: 100px;
+}
+
+.btn {
+
+	margin: 50px 30px;
+	width: 80px;
+	height: 30px;
+}
+
+h2 {
+	margin-top: 30px;
+}
