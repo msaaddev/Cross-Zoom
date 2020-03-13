@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"version": "1.0",
 	"name": "Cross Zoom",
-	"description": "A cross browser extension built for zooming a page to user's size as soon as it gets load",
+	"description": "A cross browser extension built for zooming a page to user's defined zoom as soon as page gets load",
 	"author": "Muhammad Saad",
 
 	"background": {
