@@ -21,12 +21,6 @@ btnValue2.addEventListener('click', () => {
 	});
 });
 
-btnValue2.addEventListener('click', () => {
-	chrome.tabs.query({ currentWindow: true, active: true }, function(tabs) {
-		return browser.tabs.setZoom(tabs[0].id, 1.75);
-	});
-});
-
 btnValue3.addEventListener('click', () => {
 	chrome.tabs.query({ currentWindow: true, active: true }, function(tabs) {
 		return browser.tabs.setZoom(tabs[0].id, 1.5);
