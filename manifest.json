@@ -15,7 +15,10 @@
 	},
 	"browser_action": {
 		"default_title": "Cross Extension",
-		"default_popup": "html/popup.html"
+		"default_popup": "html/popup.html",
+		"default_icon": {
+			"16": "image/image.png"
+		}
 	},
 
 	"permissions": ["activeTab", "tabs", "contextMenu"]
