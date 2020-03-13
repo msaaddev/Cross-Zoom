@@ -1,14 +1,24 @@
+
 .container {
 	display: flex;
 	width: 400px;
-	height: 100px;
+	height: 80px;
 }
 
 .btn {
-	margin: 30px 10px;
-	width: 80px;
-	height: 30px;
+	margin: 10px 10px;
+	width: 90px;
+	height: 40px;
+	font-size: 13px;
 	font-family: 'Roboto', sans-serif;
+	border-radius: 10px;
+	transition: all 0.5s;
+}
+
+.btn:hover {
+	background-color: black;
+	color: #ffffff;
+	cursor: pointer;
 }
 
 h2 {
