@@ -3,7 +3,9 @@
 	"version": "1.0",
 	"name": "Cross Zoom",
 	"description": "A cross browser extension built for zooming a page to user's defined zoom as soon as page gets load",
-	"author": "Muhammad Saad",
+    "author": "Muhammad Saad",
+    "GitHub": "msaaddev",
+    "default_locale": "en",
 
 	"background": {
 		"script": ["lib/jquery.js"]
@@ -17,7 +19,8 @@
 		"matches": ["<all-urls>"],
 		"js": ["lib/jquery.js", "lib/sweetalert.js", "zoom.js"]
 	},
-	"permissions": ["tabs", "*://*/"],
+    "permissions": ["tabs", "*://*/"],
+
 
 	"content_security_policy": "script-src 'self' object-src 'self'"
 }
