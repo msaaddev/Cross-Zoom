@@ -10,7 +10,6 @@ const btnValue5 = document.getElementById('5');
 
 btnValue1.addEventListener('click', () => {
 	chrome.tabs.query({ currentWindow: true, active: true }, function(tabs) {
-		console.log(btnValue1.nodeValue);
 		return browser.tabs.setZoom(tabs[0].id, 2.0);
 	});
 });
