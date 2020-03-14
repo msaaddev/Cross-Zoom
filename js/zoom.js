@@ -1,3 +1,10 @@
+/*
+	Author: Muhammad Saad
+	GitHub: msaaddev
+	Email: mrsaadirfan@gmail.com
+	Website: https://msaad.dev
+*/
+
 window.browser = (function() {
 	return window.browser || window.chrome;
 })();
