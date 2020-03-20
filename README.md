@@ -2,8 +2,14 @@
 
 A cross browser zoom extension which uses Web APIs for zoomming. 
 
-![Cross Zoom for Firefox & Chrome](https://i.imgur.com/W5KM2gF.gif)
+## Chrome
+
+![Cross Zoom Chrome](https://i.imgur.com/GmE1WHg.gif)
+
+## Firefox
+
+![Cross Zoom Firefox](https://i.imgur.com/JMwj9Az.gif)
 
 ## 🔑 LICENSE
 
-[MIT](https://github.com/msaaddev/Cross-Zoom/blob/master/LICENSE)
+- [MIT](https://github.com/msaaddev/Cross-Zoom/blob/master/LICENSE)
